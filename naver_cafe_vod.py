@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # naver_cafe_attachment.py
+# Original script by lunDreame (https://github.com/lunDreame/NaverCafeVOD)
+# Modified to support MV/MV2/ZIP attachments.
 
 import asyncio, argparse, subprocess, sys, shlex, time, re, os
 from datetime import datetime
